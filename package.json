@@ -4,7 +4,6 @@
   "description": "Steward-GRC documentation",
   "author": "The Steward Authors",
   "license": "Apache-2.0",
-  "type": "module",
   "private": true,
   "engines": {
     "node": ">=20"
@@ -20,6 +19,7 @@
   "scripts": {
     "dev": "docusaurus start",
     "build": "docusaurus build",
+    "build:preview": "DOCS_BASE_URL=/steward/docs-preview/ docusaurus build",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
     "typecheck": "tsc -p tsconfig.json",
