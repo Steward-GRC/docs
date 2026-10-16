@@ -100,7 +100,7 @@ const config: Config = {
       // Steward-GRC/.github's TRADEMARKS.md and the website footer exactly.
       copyright:
         '<span class="tm-bind">Steward-GRC<sup>&trade;</sup></span>, Rules kept. Voices ' +
-        '<span class="tm-bind">heard.<sup>&trade;</sup></span> and their logos are trademarks of ' +
+        '<span class="tm-bind">heard<sup>&trade;</sup></span>. and their logos are trademarks of ' +
         'the rabbit hole tech, llc.',
     },
     prism: {

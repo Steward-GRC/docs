@@ -44,8 +44,9 @@ export default function Home() {
               </span>{' '}
               docs &middot; Rules kept. Voices{' '}
               <span className="tm-bind">
-                heard.<sup>&trade;</sup>
+                heard<sup>&trade;</sup>
               </span>
+              .
             </p>
             <h1 className="home-hero__headline">
               <span>A plain-language guide</span>
