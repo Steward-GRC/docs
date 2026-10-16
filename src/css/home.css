@@ -92,6 +92,13 @@ SPDX-License-Identifier: Apache-2.0
   margin-bottom: 1rem;
 }
 
+.home-hero__license {
+  font-size: 0.875rem;
+  color: var(--ifm-color-content-secondary);
+  margin-top: 1.25rem;
+  margin-bottom: 0;
+}
+
 .home-hero__lede {
   font-size: 1.0625rem;
   color: var(--ifm-color-content-secondary);

@@ -96,12 +96,15 @@ const config: Config = {
           ],
         },
       ],
-      // The holder wording and the trademark mark/tagline binding match
-      // Steward-GRC/.github's TRADEMARKS.md and the website footer exactly.
+      // Steward is open source; only the name, the logo and the tagline are trademarks. The
+      // holder wording matches Steward-GRC/.github's TRADEMARKS.md.
       copyright:
-        '<span class="tm-bind">Steward-GRC<sup>&trade;</sup></span>, Rules kept. Voices ' +
-        '<span class="tm-bind">heard<sup>&trade;</sup></span>. and their logos are trademarks of ' +
-        'the rabbit hole tech, llc.',
+        'Steward-GRC is open source, licensed under the ' +
+        '<a href="https://github.com/Steward-GRC/docs/blob/main/LICENSE">Apache License 2.0</a>. ' +
+        '<span class="tm-bind">Steward-GRC<sup>&trade;</sup></span>, its logo and the tagline ' +
+        'Rules kept. Voices <span class="tm-bind">heard<sup>&trade;</sup></span>. are trademarks ' +
+        'of the rabbit hole tech, llc; the licence does not grant rights to the name, the logo ' +
+        'or the tagline.',
     },
     prism: {
       additionalLanguages: ['bash', 'yaml'],

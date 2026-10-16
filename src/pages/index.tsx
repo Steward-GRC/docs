@@ -69,6 +69,13 @@ export default function Home() {
                 View on GitHub
               </Link>
             </div>
+            <p className="home-hero__license">
+              Steward is open source under the{' '}
+              <Link to="https://github.com/Steward-GRC/docs/blob/main/LICENSE">
+                Apache License 2.0
+              </Link>
+              . Only the name, the logo and the tagline are trademarks.
+            </p>
           </div>
           <div className="home-terminal" role="img" aria-label="Illustrative guide map">
             <div className="home-terminal__bar">
