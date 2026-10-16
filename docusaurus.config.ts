@@ -11,7 +11,9 @@ const config: Config = {
   favicon: 'img/mark.svg',
 
   url: 'https://docs.steward-grc.com',
-  baseUrl: '/',
+  // A preview build (npm run build:preview) serves from a path prefix instead of the
+  // domain root; production never sets DOCS_BASE_URL, so it always gets '/'.
+  baseUrl: process.env.DOCS_BASE_URL || '/',
   trailingSlash: false,
 
   organizationName: 'Steward-GRC',
