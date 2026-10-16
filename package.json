@@ -1,0 +1,46 @@
+{
+  "name": "docs",
+  "version": "0.0.0",
+  "description": "Steward-GRC documentation",
+  "author": "The Steward Authors",
+  "license": "Apache-2.0",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Steward-GRC/docs.git"
+  },
+  "homepage": "https://github.com/Steward-GRC/docs#readme",
+  "bugs": {
+    "url": "https://github.com/Steward-GRC/docs/issues"
+  },
+  "scripts": {
+    "dev": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear",
+    "typecheck": "tsc -p tsconfig.json",
+    "check": "npm run typecheck && npm run build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.10.2",
+    "@docusaurus/preset-classic": "3.10.2",
+    "@fontsource-variable/public-sans": "^5.3.0",
+    "@fontsource-variable/source-serif-4": "^5.3.0",
+    "@fontsource/ibm-plex-mono": "^5.3.0",
+    "clsx": "^2.1.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@docusaurus/tsconfig": "3.10.2",
+    "@docusaurus/types": "3.10.2",
+    "prettier": "^3.8.0",
+    "typescript": "^5.9.0"
+  }
+}
