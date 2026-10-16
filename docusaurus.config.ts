@@ -7,7 +7,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // packages/ui/src/styles/steward.css design tokens.
 const config: Config = {
   title: 'Steward-GRC',
-  tagline: 'Rules kept. Voices heard.',
+  tagline: 'Rules kept. Voices heard™.',
   favicon: 'img/mark.svg',
 
   url: 'https://docs.steward-grc.com',

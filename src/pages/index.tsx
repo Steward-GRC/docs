@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <Layout
       title="Steward-GRC"
-      description="A plain-language guide to policies, procedures and compliance">
+      description="A plain-language guide to policies and compliance.">
       <header className="home-hero">
         <div className="home-hero__backdrop" aria-hidden="true" />
         <div className="home-hero__grid">
@@ -42,16 +42,19 @@ export default function Home() {
               <span className="tm-bind">
                 Steward-GRC<sup>&trade;</sup>
               </span>{' '}
-              docs &middot; Rules kept. Voices{' '}
-              <span className="tm-bind">
-                heard<sup>&trade;</sup>
-              </span>
-              .
+              docs
             </p>
             <h1 className="home-hero__headline">
-              <span>A plain-language guide</span>
-              <span className="home-hero__headline-accent">to policies and compliance.</span>
+              <span>Rules kept.</span>
+              <span className="home-hero__headline-accent">
+                Voices{' '}
+                <span className="tm-bind">
+                  heard<sup>&trade;</sup>
+                </span>
+                .
+              </span>
             </h1>
+            <p className="home-hero__subline">A plain-language guide to policies and compliance.</p>
             <p className="home-hero__lede">
               Learn how a policy moves from draft to <mark>approved</mark>, how to{' '}
               <mark>acknowledge</mark> what applies to you, and how to find anything in seconds.
