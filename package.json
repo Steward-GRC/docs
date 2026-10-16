@@ -4,7 +4,6 @@
   "description": "Steward-GRC documentation",
   "author": "The Steward Authors",
   "license": "Apache-2.0",
-  "type": "module",
   "private": true,
   "engines": {
     "node": ">=20"
